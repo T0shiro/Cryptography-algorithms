@@ -1,6 +1,3 @@
-text = ""
-
-
 def decrypt(text):
     for i in range(1, 26):
         print("+"+str(i)+" "+"".join([chr(ord(c) + i if ord(c)+i < 123 else ord(c)+i-26) for c in text]))
