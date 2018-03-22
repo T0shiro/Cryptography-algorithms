@@ -4,5 +4,6 @@ Implementation of cryptography algorithms
 
 ## Algorithms
 
-- Ceasar code : encryption and decryption
+- Caesar code : encryption and decryption
+- RSA : encryption and decryption
 - To be continued ...
