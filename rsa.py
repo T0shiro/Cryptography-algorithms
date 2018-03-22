@@ -11,11 +11,15 @@ def main():
 
     n = p * q
     tab = transform_input("Sophia Antipolis")
+    print("input :", end=" ")
     print(tab)
     encrypted = [(int(k) ** e) % n for k in tab]
+    print("encrypted :", end=" ")
     print(encrypted)
     decrypted = [(int(k) ** d) % n for k in encrypted]
+    print("decrypted :", end=" ")
     print(decrypted)
+
 
 if __name__ == '__main__':
     main()
